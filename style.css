@@ -8,9 +8,17 @@ body{
 
 .header{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: 400px;
+}
+
+.button__p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     width: 400px;
 }
 
