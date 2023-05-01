@@ -21,10 +21,12 @@ body{
 }
 
 .board{
+    display: grid;
     background-color: white;
     height: 600px;
     width: 600px;
     margin:20px 15px;
+    border: solid black ;
 }
 
 .buttons{
